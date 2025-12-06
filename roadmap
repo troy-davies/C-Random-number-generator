@@ -1,0 +1,8 @@
+Plans for 1.0:
+# Add support for invoking via a single command. Example: crand -min 1 -max 100
+# Compile for Linux powered systems
+# Adjust line count in README
+Plans for later:
+# Add an optional GUI
+# Add a windows installer for the GUI version
+# If flexible enough; Like support for pipes, publish to debian repos
