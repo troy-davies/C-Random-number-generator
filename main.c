@@ -14,7 +14,7 @@ int main() {
     printf("ERROR: Maximum value must be larger than minimum value.\n");
     return 1; // Make sure that there is a proper range of numbers
     }
-    int randnum = min + randombytes_uniform(max - min + 1) // Generate random number
+    int randnum = min + randombytes_uniform(max - min + 1); // Generate random number
     printf("Random number is %d.\n", randnum);
     return 0;
 }
