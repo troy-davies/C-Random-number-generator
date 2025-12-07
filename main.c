@@ -1,11 +1,11 @@
-#include <sodium.h> // Simple random number generator made by Troy Davies
+// Simple random number generator made by Troy Davies
+#include <sodium.h>
 #include <stdio.h>
 int main() {
-    if (sodium_init() < 1) { // Initiallise sodium
+    if (sodium_init() < 0) { // Initiallise sodium
         return 1;
     }
     int min, max, random;
-    randombytes(&random, sizeof(int));
     printf("Input minimum value.\nValue: ");
     scanf("%d", &min);
     printf("Input maximum value.\nValue: ");
