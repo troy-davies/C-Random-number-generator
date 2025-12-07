@@ -1,8 +1,8 @@
 Plans for 1.0:
-- Remake the entire thing to achieve full randomisation (using libsodium-dev)
-- Add support for invoking via a single command. Example: crand -min 1 -max 100
-- Compile for Linux powered systems
-- Adjust line count in README
+- Remake the entire thing to achieve full randomisation (using libsodium-dev) -DONE
+- Add support for invoking via a single command. Example: crand -min 1 -max 100 -TO DO
+- Compile for Linux powered systems -DONE
+- Adjust line count in README -NOT NEEDED
 Plans for later:
 - Add an optional GUI
 - Add a windows installer for the GUI version
