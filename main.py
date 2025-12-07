@@ -1,5 +1,4 @@
 # Simple random number generator rewritten in Python by Troy Davies
-
 import secrets
 
 def main():
