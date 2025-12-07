@@ -1,5 +1,4 @@
-// Simple random number generator made by Troy Davies.
-#include <sodium.h>
+#include <sodium.h> // Simple random number generator made by Troy Davies
 #include <stdio.h>
 int main() {
     if (sodium_init() < 1) { // Initiallise sodium
@@ -18,5 +17,4 @@ int main() {
     int randnum = min + randombytes_uniform(max - min + 1) // Generate random number
     printf("Random number is %d.\n", randnum);
     return 0;
-
 }
