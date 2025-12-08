@@ -14,7 +14,7 @@ clang main.c -o randnumgenlinux -lsodium
 # Compilation for windows
 WIP < Just use the python version or the version 0.9 which is peudo-random.
 May look something like
-~~"clang -o crandnumgen.exe main.c -L~/projects/crandnumgen/C-Random-number-generator/lib -lsodium -I~/projects/crandnumgen/C-Random-number-generator -target x86_64-w64-mingw32" on linux but currently I have trouble figuring it out.~~
+~~"clang -o crandnumgen.exe main.c -L~/projects/crandnumgen/C-Random-number-generator/lib -lsodium -I~/projects/crandnumgen/C-Random-number-generator -target x86_64-w64-mingw32" on linux but currently I have trouble figuring it out~~
 ~~Use Visual Studio~~
 ~~Use w64devkit gcc~~
 ~~Try to learn make~~
