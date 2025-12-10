@@ -19,3 +19,4 @@ May look something like
 ~~Use w64devkit gcc~~
 ~~Try to learn make~~
 ~~Just use tcc~~
+Please help me with this.
