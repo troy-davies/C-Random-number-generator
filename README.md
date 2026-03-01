@@ -1,3 +1,4 @@
+# (TO DO): COMPILE FOR WINDOWS
 # C-Random-number-generator
 A very simple random number generator written in C, very much usable but also for learning c or use in situations where randomisation is a critical feature that must be speedy.
 Written in twenty lines of code.
